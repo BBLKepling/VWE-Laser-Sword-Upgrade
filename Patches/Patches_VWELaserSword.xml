@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWEL_LaserSword"]/tools/li[label="handle"]</xpath>
+    <value>
+      <chanceFactor>0.1</chanceFactor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VWEL_LaserSword"]/tools/li[label="point"]/capacities/li</xpath>
+    <value>
+      <li>UP_VWE_Laser_Stab</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VWEL_LaserSword"]/tools/li[label="blade"]/capacities/li</xpath>
+    <value>
+      <li>UP_VWE_Laser_Cut</li>
+    </value>
+  </Operation>
+
+</Patch>

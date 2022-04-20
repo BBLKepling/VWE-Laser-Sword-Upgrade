@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseWeapon_Bladelink">
+    <defName>UP_VWEL_LaserSword_Bladelink</defName>
+    <label>persona laser sword</label>
+    <description>An ultratech device consisting of a handle and an extendable laser blade. A weapon of gentlemen.
+	\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <graphicData>
+		<texPath>Things/WeaponMelee/LaserSwordOn</texPath>
+		<shaderType>TransparentPostLight</shaderType>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
+    </graphicData>
+    <techLevel>Ultra</techLevel>
+    <weaponTags>
+		<li>UltratechMelee</li>
+		<li>LaserGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <statBases>
+		<MarketValue>3000</MarketValue>
+		<Mass>1.4</Mass>
+    </statBases>
+    <equippedAngleOffset>-15</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.6</cooldownTime>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>UP_VWE_Laser_Stab</li>
+        </capacities>
+        <power>33</power>
+        <armorPenetration>1</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>UP_VWE_Laser_Cut</li>
+        </capacities>
+        <power>33</power>
+        <armorPenetration>1</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	    <groundGraphic>
+	      <texPath>Things/WeaponMelee/LaserSwordOff</texPath>
+	      <graphicClass>Graphic_Single</graphicClass>
+	      <shaderType>CutoutComplex</shaderType>
+	    </groundGraphic>
+	  </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+	<tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+</Defs>

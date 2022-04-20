@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VWE Laser Sword Upgrade</name>
+  <author>bblkepling</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>bblkepling.VWELaserSwordUpgrade</packageId>
+  <description>VWE Laser Sword Upgrade.</description>
+  <modDependencies>
+    <li>
+      <packageId>VanillaExpanded.VWEL</packageId>
+      <displayName>Vanilla Weapons Expanded - Laser</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1989352844</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>VanillaExpanded.VWEL</li>
+  </loadAfter>
+</ModMetaData>
