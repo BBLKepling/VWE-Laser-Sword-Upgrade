@@ -19,5 +19,6 @@
   </modDependencies>
   <loadAfter>
     <li>VanillaExpanded.VWEL</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
 </ModMetaData>

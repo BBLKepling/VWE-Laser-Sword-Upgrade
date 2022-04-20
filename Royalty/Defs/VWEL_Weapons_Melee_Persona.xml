@@ -7,24 +7,25 @@
     <description>An ultratech device consisting of a handle and an extendable laser blade. A weapon of gentlemen.
 	\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <graphicData>
-		<texPath>Things/WeaponMelee/LaserSwordOn</texPath>
-		<shaderType>TransparentPostLight</shaderType>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>1.2</drawSize>
+      <texPath>Things/WeaponMelee/LaserSwordOn</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <techLevel>Ultra</techLevel>
     <weaponTags>
-		<li>UltratechMelee</li>
-		<li>LaserGun</li>
+      <li>UltratechMelee</li>
+      <li>LaserGun</li>
     </weaponTags>
     <weaponClasses>
       <li>Melee</li>
       <li>MeleePiercer</li>
     </weaponClasses>
     <statBases>
-		<MarketValue>3000</MarketValue>
-		<Mass>1.4</Mass>
+      <MarketValue>3000</MarketValue>
+      <Mass>1.4</Mass>
     </statBases>
+    <equippedStatOffsets />
     <equippedAngleOffset>-15</equippedAngleOffset>
     <tools>
       <li>
