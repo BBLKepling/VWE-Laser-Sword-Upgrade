@@ -6,12 +6,14 @@
     <label>persona laser sword</label>
     <description>An ultratech device consisting of a handle and an extendable laser blade. A weapon of gentlemen.
 	\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
+    <thingClass>VFECore.ThingWithFloorGraphic</thingClass>
     <graphicData>
       <texPath>Things/WeaponMelee/LaserSwordOn</texPath>
       <shaderType>TransparentPostLight</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
+    <smeltable>false</smeltable>
     <techLevel>Ultra</techLevel>
     <weaponTags>
       <li>UltratechMelee</li>
@@ -56,15 +58,16 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-	<comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	    <groundGraphic>
-	      <texPath>Things/WeaponMelee/LaserSwordOff</texPath>
-	      <graphicClass>Graphic_Single</graphicClass>
-	      <shaderType>CutoutComplex</shaderType>
-	    </groundGraphic>
-	  </li>
-    </comps>
+    <modExtensions>
+      <li Class="VFECore.FloorGraphicExtension">
+        <graphicData>
+          <texPath>Things/WeaponMelee/LaserSwordOff</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.2</drawSize>
+        </graphicData>
+      </li>
+    </modExtensions>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
     </thingSetMakerTags>
