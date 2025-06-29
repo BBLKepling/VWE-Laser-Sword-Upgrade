@@ -16,7 +16,7 @@
       </li>
 
       <li Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VWEL_LaserSword"]/tools/li[label="edge"]/capacities/li</xpath>
+        <xpath>Defs/ThingDef[defName="VWEL_LaserSword"]/tools/li[label="blade"]/capacities/li</xpath>
         <value>
           <li>UP_VWE_Laser_Cut</li>
         </value>
